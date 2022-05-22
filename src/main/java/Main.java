@@ -8,7 +8,6 @@ import org.apache.http.impl.client.HttpClientBuilder;
 
 import java.io.*;
 
-import java.util.List;
 
 public class Main {
     private static final String NASA_URL = "https://api.nasa.gov/planetary/apod?api_key=FRl1zW5Em5OOjWU7bWEx23HYqpz1tL4dHhXA64O0";
