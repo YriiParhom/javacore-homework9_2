@@ -33,7 +33,7 @@ public class Main {
         HttpGet request2 = new HttpGet(nasa.getHdurl());
         CloseableHttpResponse response2 = httpClient.execute(request2);
         byte[] bytes = response2.getEntity().getContent().readAllBytes();
-        File file = new File("nasa_imafe.jpg");
+        File file = new File("nasa_image.jpg");
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(file));
         bos.write(bytes);
         bos.flush();
